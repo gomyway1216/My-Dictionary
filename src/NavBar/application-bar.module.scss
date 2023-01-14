@@ -1,0 +1,32 @@
+.appBar {
+
+    // position: -webkit-sticky; /* Safari */
+    // position: sticky;
+    // top: 0;
+    // background-color: #c0c0c0;
+    // z-index:100;
+
+  .toolBar {
+    display: flex;
+    justify-content: space-between;
+
+    .pageName {
+      width: 200px;
+    }
+
+    .navBarItems {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      .item {
+        margin: 20px;
+        margin-right: 0;
+        box-sizing: border-box;
+        font-size: large;
+        font-weight: bold;
+      }
+    }
+  }
+}

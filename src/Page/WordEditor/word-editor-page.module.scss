@@ -1,0 +1,28 @@
+.root {
+  margin-top: 100px;
+
+  .title {
+    font-size: large;
+  }
+
+  .autoSaveSwitch {
+    margin-top: 20px;
+    margin-bottom: 10px;;
+  }
+
+  .toolBar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 70px;
+    background-color: #c0c0c0;
+    z-index:100;
+  }
+
+  .buttons {
+    margin-top: 20px;
+
+    .button {
+      margin: 10px;
+    }
+  }
+}
